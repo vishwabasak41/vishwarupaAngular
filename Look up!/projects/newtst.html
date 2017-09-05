@@ -1,0 +1,35 @@
+<html>
+<head>
+vishwa
+</head>
+<body>
+
+
+  <input type="checkbox" class="checks" value="bike"> I have a bike<br>
+  
+  <input type="submit"  id="submit" value="Submit">
+
+<p style="display:none;">Thankyou</p>
+
+
+<script src="jquery-3.1.0.js"></script>
+<script>
+
+$('.checks').change(function(){
+if ($(".checks").is(":checked")){
+	$('#submit').on('click',function(){
+			$('p').show();
+		});
+}
+else {
+	
+	alert("unsuccessuly");
+
+}
+});
+
+</script>
+
+</ody>
+
+</html>

@@ -1,0 +1,107 @@
+[
+        {
+         "name": "Imagine Dragons - Whatever It Takes (Audio)",
+         "slug": "item-1"  ,
+         "embed": "rGlEZpOVjGo",
+         "image":"assets/ittakes.jpg",
+         "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Believer",
+         "slug": "item-2",
+         "embed":"IhP3J0j9JmY",  
+          "image":"assets/another.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Thunder",
+         "slug": "item-3",
+         "embed":"fKopy74weus"  ,
+          "image":"assets/newer.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Demons (Official)",
+         "slug": "item-4",
+         "embed":"mWRsgZuwf_8"  ,
+          "image":"assets/demons.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Radioactive",
+         "slug": "item-5",
+         "embed":"ktvTqknDobU"  ,
+          "image":"assets/radioactive.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - On Top Of The World",
+         "slug": "item-6",
+         "embed":"w5tWYmIOWGk"  ,
+          "image":"assets/ontopoftheworld.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - I Bet My Life",
+         "slug": "item-7",
+         "embed":"4ht80uzIhNs"  ,
+          "image":"assets/ibetmylife.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons ‒ Start Over",
+         "slug": "item-8",
+         "embed":"CRiJ1j-QFRA"  ,
+          "image":"assets/canwestartover.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons ‒ I’ll Make It Up To You",
+         "slug": "item-9",
+         "embed":"Qc78efgHMqo"  ,
+          "image":"assets/willmakeituptou.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Walking The Wire (Audio)",
+         "slug": "item-10",
+         "embed":"1nv9br7P7g0"  ,
+          "image":"assets/walkingthewire.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Shots",
+         "slug": "item-11",
+         "embed":"qQrgto184Tk"  ,
+          "image":"assets/shots.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Gold",
+         "slug": "item-12",
+         "embed":"Rl3ELiPXFRo"  ,
+          "image":"assets/gold.jpg",
+          "featured":true
+        },
+        {
+         "name": "Ready, Aim, Fire - Imagine Dragons Lyrics",
+         "slug": "item-13",
+         "embed":"wJMWRJDKg5s"  ,
+          "image":"assets/readyaimfire.jpg",
+          "featured":true
+        },
+        {
+         "name": "Who We Are - Imagine Dragons (Lyrics)",
+         "slug": "item-14",
+         "embed":"C-W40iW2MRs"  ,
+          "image":"assets/whoweare.jpg",
+          "featured":true
+        },
+        {
+         "name": "Imagine Dragons - Amsterdam",
+         "slug": "item-15",
+         "embed":"TKtPXO5iEnA"  ,
+          "image":"assets/amsterdam.jpg",
+          "featured":true
+        }
+    ]

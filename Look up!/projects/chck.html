@@ -1,0 +1,120 @@
+<html>
+<head>
+vishwa
+</head>
+<body>
+
+<div>
+<button id="domi" value="DOMINOES" >DOMINOES</button>
+<button id="kfc" value="KFC">KFC</button>
+</div>
+
+<div id="domifood" style="display:none;" >
+ <input type="checkbox" class="checks" value="cb"> Cheese Burst<br>
+  <input type="checkbox" class="checks" value="pp"> Pan Pizza<br>
+  <input type="submit"  id="submit" value="Submit">
+  </div>
+
+
+<div id="kfcfood" style="display:none;" >
+ <input type="checkbox" class="newch" value="chick"> Chicken<br>
+  <input type="checkbox" class="newch" value="krush">Krushers<br>
+  <input type="submit"  id="submitkfc" value="Submit">
+  </div>
+
+
+
+<p style="display:none;">Thankyou</p>
+
+
+</body>
+<script src="jquery-3.1.0.js"></script>
+<script>
+
+$('#domi').on('click',function(){
+	$('#domifood').toggle();
+});
+$('#kfc').on('click',function(){
+	$('#kfcfood').toggle();
+});
+
+
+
+
+
+var c=0;
+var res=0;
+$('.checks').each(function () {
+	$('.checks').change(function(){
+	var res = $('.checks:checked').length;
+	if(res>0){
+		c=1;
+	}
+	return c;
+	$('#submit').on('click',function(){
+			console.log(c)
+	
+
+	})
+	$('#submit').on('click',function(){
+			console.log(c)
+	
+	
+	})
+})
+
+
+
+	
+
+/*else{
+	$('#submit').on('click',function(){
+			alert("unsuccessul");})
+
+}
+
+if($('.newch').prop("checked")){
+$('#submitkfc').on('click',function(){
+			alert("successul");})
+
+}
+else{
+	$('#submitkfc').on('click',function(){
+			alert("unsuccessul");})
+	
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*res=0
+	var res = $('.checks:checked').length;
+	if(res>0){
+		$('#submit').on('click',function(){
+			alert("successuly");
+		});
+	}
+	else{
+		console.log("kks")
+		alert("no");
+		}
+	});*/
+
+
+
+
+
+</script>
+</body>
+
+</html>
