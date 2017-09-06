@@ -2,12 +2,16 @@
   "name": "Imagine-dragons",
   "version": "1.0.0",
   "scripts": {
+    "main": "index.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "scripts": {
+    "start": "node index.js"
+  },
   },
   "private": true,
   "dependencies": {
@@ -49,5 +53,9 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
+  },
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
   }
 }
